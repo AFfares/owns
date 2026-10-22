@@ -1,0 +1,18 @@
+MYGREP(1)              User Commands              MYGREP(1)
+
+NAME
+    mygrep - search for text inside a file
+
+SYNOPSIS
+    mygrep <text> <filename>
+
+DESCRIPTION
+    mygrep reads a file and prints each line containing
+    the specified text.
+
+EXAMPLE
+    ./mygrep "Python" students.txt
+
+EXIT STATUS
+    0    Success
+    1    Invalid arguments or file opening error
